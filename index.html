@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advocate Mahesh Muddala</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-dark': '#0f172a', /* Deep navy blue */
+                        'brand-gold': '#d4af37', /* Professional gold */
+                        'brand-light': '#f8fafc', /* Off-white for sections */
+                    },
+                    fontFamily: {
+                        'serif': ['Merriweather', 'serif'],
+                        'sans': ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans antialiased text-gray-800 bg-brand-light">
+
+    <nav class="bg-brand-dark text-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex-shrink-0 font-serif text-xl md:text-2xl font-bold text-brand-gold">
+                    Advocate Mahesh Muddala
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#" class="hover:text-brand-gold transition-colors duration-200">Home</a>
+                    <a href="#experience" class="hover:text-brand-gold transition-colors duration-200">Experience</a>
+                    <a href="#contact" class="hover:text-brand-gold transition-colors duration-200">Contact</a>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button class="text-white hover:text-brand-gold focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="bg-brand-dark text-white relative overflow-hidden">
+        <div class="absolute inset-0 opacity-20 bg-[url('https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&q=80')] bg-cover bg-center"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-12">
+                <div class="w-full md:w-3/5 text-center md:text-left">
+                    <h1 class="font-serif text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+                        Professional Legal Representation <br/><span class="text-brand-gold">You Can Trust</span>
+                    </h1>
+                    <p class="text-lg md:text-xl text-gray-300 mb-8 max-w-2xl">
+                        Delivering expert legal services with integrity, diligence, and a results-driven approach. Specializing in Civil, Criminal, and Corporate Law with over a decade of uncompromising fight for justice.
+                    </p>
+                    <a href="tel:+919177477547" class="inline-block bg-brand-gold text-brand-dark font-bold text-lg py-4 px-8 rounded shadow-lg hover:bg-yellow-500 transition-all duration-300 transform hover:-translate-y-1">
+                        <i class="fas fa-phone-alt mr-2"></i> Call Now: +91 9177477547
+                    </a>
+                </div>
+                
+                <div class="w-full md:w-2/5 flex justify-center">
+                    <div class="relative w-64 h-64 md:w-80 md:h-80 rounded-full border-4 border-brand-gold overflow-hidden shadow-2xl">
+                        <img src="your-photo.jpg" alt="Advocate Mahesh Muddala" class="w-full h-full object-cover">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="py-20 bg-brand-light">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="font-serif text-3xl md:text-4xl font-bold text-brand-dark mb-4">Professional Experience & Areas of Practice</h2>
+                <div class="w-24 h-1 bg-brand-gold mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                <div class="bg-white p-8 rounded-xl shadow-lg border-t-4 border-brand-gold hover:shadow-2xl transition-shadow duration-300">
+                    <div class="text-brand-dark text-5xl mb-6">
+                        <i class="fas fa-landmark"></i>
+                    </div>
+                    <h3 class="font-serif text-xl font-bold text-brand-dark mb-4">Civil Law</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Handling property disputes, family settlements, breach of contract litigation, and related contractual matters.
+                    </p>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-lg border-t-4 border-brand-gold hover:shadow-2xl transition-shadow duration-300">
+                    <div class="text-brand-dark text-5xl mb-6">
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <h3 class="font-serif text-xl font-bold text-brand-dark mb-4">Criminal Defense</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        A proven track record of successful bail hearings, expert trial advocacy, and High Court appeals protecting the rights of the accused.
+                    </p>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-lg border-t-4 border-brand-gold hover:shadow-2xl transition-shadow duration-300">
+                    <div class="text-brand-dark text-5xl mb-6">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3 class="font-serif text-xl font-bold text-brand-dark mb-4">Corporate Law</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Providing strategic legal advice on business contracts, trademark registration, and corporate compliance.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-brand-dark text-white pt-16 pb-8 border-t-8 border-brand-gold">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="font-serif text-3xl font-bold text-brand-gold mb-4">Get in Touch</h2>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center mb-12">
+                <div class="flex flex-col items-center">
+                    <div class="w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center text-brand-gold mb-4 text-xl">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h4 class="font-bold mb-2">Office Address</h4>
+                    <p class="text-gray-400">3-81, Vallampatla<br>PIN: 505402</p>
+                </div>
+                
+                <div class="flex flex-col items-center">
+                    <div class="w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center text-brand-gold mb-4 text-xl">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h4 class="font-bold mb-2">Phone Number</h4>
+                    <p class="text-gray-400">+91 9177477547</p>
+                </div>
+                
+                <div class="flex flex-col items-center">
+                    <div class="w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center text-brand-gold mb-4 text-xl">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h4 class="font-bold mb-2">Email</h4>
+                    <a href="mailto:advocatemaheshmuddala1017@gmail.com" class="text-gray-400 hover:text-brand-gold transition-colors break-all">
+                        advocatemaheshmuddala1017@gmail.com
+                    </a>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 pt-8 text-center text-sm text-gray-500">
+                <p>&copy; 2026 Advocate Mahesh Muddala. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
